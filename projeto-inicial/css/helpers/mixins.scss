@@ -1,0 +1,10 @@
+@mixin borda-arredondada {
+  -webkit-border-radius:  $raio;
+  border-radius:  $raio;
+}
+
+@mixin image-replacement {
+  text-indent: -9999px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
