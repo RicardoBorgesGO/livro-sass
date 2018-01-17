@@ -1,6 +1,18 @@
-.sprite-sprite {
-  background-image: url('/imagens/sprite-s8ca5edb2ee.png');
+.sprite-sprite, .sprite-icone-check, .sprite-icone-x {
+  background-image: url('../imagens/sprite-s8ca5edb2ee.png');
   background-repeat: no-repeat;
+}
+
+.sprite-icone-check {
+  background-position: 0 0;
+  height: 18px;
+  width: 18px;
+}
+
+.sprite-icone-x {
+  background-position: 0 -23px;
+  height: 19px;
+  width: 19px;
 }
 
 .plataformas li, .social li a {
@@ -650,20 +662,6 @@ header .container {
   -webkit-box-shadow: black 0 2px 6.65px;
   box-shadow: black 0 2px 6.65px;
   margin-left: 2em;
-}
-
-.icone-check, .icone-x {
-  background: url(../imagens/sprite.png) no-repeat;
-  width: 18px;
-  height: 18px;
-}
-
-.icone-check {
-  background-position: -5px -5px;
-}
-
-.icone-x {
-  background-position: -33px -5px;
 }
 
 /** Blog **/
